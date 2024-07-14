@@ -1,0 +1,10 @@
+.nav {
+  background-color: orangered;
+}
+
+.nav ul {
+  list-style: none;
+  display: flex;
+  justify-content: space-between;
+}
+/* this will select all the ul elements on the entire application, which defeats the whole purpose of css modules, where these classes here are supposed to only be applied to this component, so never use the normal element selector */
